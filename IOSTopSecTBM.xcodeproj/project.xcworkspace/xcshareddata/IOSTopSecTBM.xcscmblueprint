@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "80b01fc5-79d3-4697-80e5-512c415ebc50++9902",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "80b01fc5-79d3-4697-80e5-512c415ebc50++9902" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "80b01fc5-79d3-4697-80e5-512c415ebc50++9902" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1764C863-F353-4640-949D-CC237451DC22",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "80b01fc5-79d3-4697-80e5-512c415ebc50++9902" : "tbm-happ-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IOSTopSecTBM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ARC_TBM_WORKSPACE_IOS\/IOSTopSecTBM\/IOSTopSecTBM.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.77.93\/svn\/TBM",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80b01fc5-79d3-4697-80e5-512c415ebc50++9902"
+    }
+  ]
+}

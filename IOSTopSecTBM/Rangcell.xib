@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="rcell" rowHeight="46" id="Xqc-zn-JJA" customClass="RangCell">
+            <rect key="frame" x="0.0" y="0.0" width="399" height="134"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xqc-zn-JJA" id="Uk7-Nl-hnW">
+                <rect key="frame" x="0.0" y="0.0" width="399" height="133"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="keyong_cardbg" translatesAutoresizingMaskIntoConstraints="NO" id="J99-Y0-SCZ">
+                        <rect key="frame" x="0.0" y="0.0" width="399" height="120"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="正在拼命加载请下拉" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JS-QS-af0">
+                        <rect key="frame" x="52" y="55" width="165" height="24"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.90980392160000001" green="0.96078431369999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="J99-Y0-SCZ" firstAttribute="top" secondItem="Uk7-Nl-hnW" secondAttribute="topMargin" constant="-8" id="Rc0-X6-UYv"/>
+                    <constraint firstItem="J99-Y0-SCZ" firstAttribute="leading" secondItem="Uk7-Nl-hnW" secondAttribute="leadingMargin" constant="-8" id="SOD-l4-fp6"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="J99-Y0-SCZ" secondAttribute="trailing" constant="-8" id="T3P-G9-rhZ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="J99-Y0-SCZ" secondAttribute="bottom" constant="5" id="fk9-Ss-5Uo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.90980392156862744" green="0.96078431372549022" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="shebeilab" destination="6JS-QS-af0" id="etn-of-NFg"/>
+            </connections>
+            <point key="canvasLocation" x="21.5" y="171"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="keyong_cardbg" width="690" height="266"/>
+    </resources>
+</document>
